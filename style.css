@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url("https://i.pinimg.com/736x/30/5d/5f/305d5f232041ee5159fe24dbd771ee2e.jpg");
+    background-size: cover;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.clothes-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.clothes-list li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.clothes-list a {
+    text-decoration: none;
+    color: #35424a;
+}
+
+.clothes-detail {
+    display: none; /* ซ่อนรายละเอียดเสื้อผ้า */
+}
+
+.clothes-detail:target {
+    display: block; /* แสดงรายละเอียดเมื่อถูกคลิก */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
